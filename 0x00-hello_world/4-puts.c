@@ -1,13 +1,14 @@
 /**
-  * @brief
+  * main - Entry point
   *
-  * This function outputs the string "Programming is like building a multilingual puzzle to the console using the puts function
+  * Description: Outputs the string "Programming is like building a multilingual puzzle to the console using the puts function
   *
-  * @return Returns 0 upon successful execution
+  * Return: 0 if successful, otherwise another value
   */
 #include <stdio.h>
 
-int main(void) {
+int main(void)
+{
 	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
