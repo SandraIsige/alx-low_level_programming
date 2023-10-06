@@ -6,8 +6,6 @@
 *
 * main - Prints if number is positive, zero or negative
 *
-* Description: Prints whether the number stored in the variable n
-* is positive, zero, or negative.
 *
 * Return: Always 0 (Success)
 */
