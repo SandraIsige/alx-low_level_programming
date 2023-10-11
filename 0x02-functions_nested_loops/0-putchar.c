@@ -7,7 +7,7 @@
 */
 void print_string(void)
 {
-	char str[] = "putcahr\n";
+	char str[] = "_putchar\n";
 	int i = 0;
 
 	while (str[i])
