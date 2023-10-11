@@ -4,6 +4,6 @@
 #include <unistd.h> /* for write() */
 
 int _putchar(char c);
-int print_last_digit(int);
+void jack_bauer(void);
 
 #endif /* MAIN_H */
