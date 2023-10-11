@@ -5,4 +5,4 @@
 int _putchar(char c);
 void print_string(void);
 
-endif /* MAIN_H */
+#endif /* MAIN_H */
