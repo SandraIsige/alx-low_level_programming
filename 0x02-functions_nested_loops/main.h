@@ -4,6 +4,6 @@
 #include <unistd.h> /* for write() */
 
 int _putchar(char c);
-void times_table(void);
+int add(int, int);
 
 #endif /* MAIN_H */
