@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
-* print_square - Prints a square of size n
-*
-* @size: Param1
-* Return: void
-*/
+ * print_square - print a square of size n
+ *
+ * @size: param1
+ * Return: void
+ */
 void print_square(int size)
 {
 	if (size > 0)
@@ -26,7 +26,7 @@ void print_square(int size)
 			_putchar('\n');
 			i++;
 		}
-	}	
+	}
 	else
 		_putchar('\n');
 }
