@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
-* print_square - Prints a square, followed by a new line.
+* print_square - Prints a square of size n.
 * @size: The size of the square.
 *
 * Return: void.
@@ -10,19 +10,25 @@ void print_square(int size)
 {
 	int row, col;
 
-	if (size <= 0)
+	if (size > 0)
 	{
-		_putchar('\n');
-	}
-	else
-	{
-		for (row = 0; row < size; row++)
+		int i, j;
+
+		i = 0;
+
+		while (i < size)
 		{
-			for (col = 0, col < size; col++)
+			j = 0;
+
+			while (j < size)
 			{
 				_putchar('#');
+				j++;
 			}
 			_putchar('\n');
+			i++;
 		}
-	}
+	}	
+	else
+		_putchar('\n');
 }
