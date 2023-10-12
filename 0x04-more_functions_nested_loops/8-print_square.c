@@ -1,15 +1,13 @@
 #include "main.h"
 
 /**
-* print_square - Prints a square of size n.
-* @size: The size of the square.
+* print_square - Prints a square of size n
 *
-* Return: void.
+* @size: Param1
+* Return: void
 */
 void print_square(int size)
 {
-	int row, col;
-
 	if (size > 0)
 	{
 		int i, j;
